@@ -17,10 +17,7 @@
     "@types/node": "^8.0.28",
     "@types/react": "16.0.36",
     "@types/react-dom": "16.0.3",
-    "@types/react-dom/node-stream": "latest",
-    "@types/react-dom/server": "latest",
-    "@types/react-dom/test-utils": "latest",
-    "@types/react-native": "0.52.8"
+    "react-scripts-ts": "latest"
   },
   "scripts": {
     "start": "react-scripts-ts start",
