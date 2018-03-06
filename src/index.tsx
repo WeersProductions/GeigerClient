@@ -79,9 +79,9 @@ export default class App extends React.Component<{}, State> {
         });
         var url: string =
           "https://iapandora.nl/geigercounter/api/" +
-          this.state.longitude +
+          this.state.latitude +
           "/" +
-          this.state.latitude;
+          this.state.longitude;
         this.setState({ counter: this.get(url).result });
       });
     } else {
